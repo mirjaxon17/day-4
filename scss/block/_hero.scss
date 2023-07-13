@@ -1,0 +1,30 @@
+.text_style{
+    width: 470px;
+    padding-top: 97px   ;
+}
+.hero_text{
+    display: flex;
+}
+
+.text_hero{
+    color: #000;
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%;
+}
+.hero_text_hero{
+    display: flex;
+width: 465px;
+height: 74px;
+flex-direction: column;
+margin-top: 10px;
+}
+.hero_img{
+    margin-left: auto;
+    padding-top: 80px;
+}
+.hero_img_btn{
+    margin-top: 20px;
+}

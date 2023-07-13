@@ -1,0 +1,80 @@
+.sistems_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 30px;
+}
+
+.sistem_item {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.10);
+    max-width: 320px;
+    padding: 24px 58px;
+    text-align: center;
+
+    &::before {
+        content: "";
+        width: 202px;
+        height: 130px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../img/website.svg);
+    }
+}
+.sistem_bot{
+    &::before {
+        content: "";
+        width: 202px;
+        height: 130px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../img/telegram_bot.svg);
+    }
+}
+.sistem_smm{
+    &::before {
+        content: "";
+        width: 202px;
+        height: 130px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../img/smm.svg);
+    }
+}
+.sistem_grafik{
+    &::before {
+        content: "";
+        width: 202px;
+        height: 130px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../img/grafik.svg);
+    }
+}
+.sistem_crm{
+    &::before {
+        content: "";
+        width: 202px;
+        height: 130px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../img/crm.svg);
+    }  
+}
+
+.sistem_link_item{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 112px;
+}
+.sistem_link{
+    color: #00BAFC;
+    margin-left: 16px;
+}
